@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'avada-business-coach';
+  src:  url('fonts/avada-business-coach.eot?fuoi4');
+  src:  url('fonts/avada-business-coach.eot?fuoi4#iefix') format('embedded-opentype'),
+    url('fonts/avada-business-coach.ttf?fuoi4') format('truetype'),
+    url('fonts/avada-business-coach.woff?fuoi4') format('woff'),
+    url('fonts/avada-business-coach.svg?fuoi4#avada-business-coach') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="businesscoach"], [class*=" businesscoach"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'avada-business-coach' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.businesscoachalign-right-solid:before {
+  content: "\e900";
+}
+.businesscoachbars-solid:before {
+  content: "\e901";
+}
+.businesscoachphone-square-alt-solid:before {
+  content: "\e902";
+}
+.businesscoachstar-solid:before {
+  content: "\e903";
+}
+.businesscoachtimes-solid:before {
+  content: "\e904";
+}
+.businesscoachbusco-document-check:before {
+  content: "\e905";
+}
+.businesscoachbusco-empty-circle:before {
+  content: "\e906";
+}
+.businesscoachbusco-facebook:before {
+  content: "\e907";
+}
+.businesscoachbusco-linkedin:before {
+  content: "\e908";
+}
+.businesscoachbusco-megaphone:before {
+  content: "\e909";
+}
+.businesscoachbusco-phone:before {
+  content: "\e90a";
+}
+.businesscoachbusco-target:before {
+  content: "\e90b";
+}
+.businesscoachbusco-twitter:before {
+  content: "\e90c";
+}

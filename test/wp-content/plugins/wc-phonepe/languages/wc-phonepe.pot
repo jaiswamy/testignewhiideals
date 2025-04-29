@@ -1,0 +1,145 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Integrate PhonePe with Woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-19 17:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.1\n"
+"X-Domain: wc-phonepe"
+
+#. Description of the plugin
+msgid "Allows customers to use PhonePe payment gateway with the WooCommerce."
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:37
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-phonepe-gateway.php:75
+msgid "Description"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:33
+msgid "Do not send my e-mail address with this feedback"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://sevengits.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://sevengits.com/plugin/phonepe"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:51
+msgid "I don't need this plugin any more"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:52
+msgid "I found a better plugin"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:30
+msgid "If you would be kind enough, please tell us why you're deactivating?"
+msgstr ""
+
+#. Name of the plugin
+msgid "Integrate PhonePe with Woocommerce"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:53
+msgid "It's a temporary deactivation, I'm troubleshooting"
+msgstr ""
+
+#: includes/class-phonepe-gateway.php:99
+msgid "Live Mode"
+msgstr ""
+
+#: includes/class-phonepe-gateway.php:81
+msgid "Merchant Id"
+msgstr ""
+
+#: includes/class-phonepe-gateway.php:95
+msgid "Mode"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:54
+msgid "Other"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:35
+msgid "Please give us any feedback that could help us improve"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:32
+msgid "Please tell us the reason so we can improve the plugin"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:31
+msgid "Please tell us which plugin?"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:40
+msgid "Please wait"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:29
+msgid "Quick Feedback"
+msgstr ""
+
+#: includes/class-phonepe-gateway.php:85
+msgid "SaltKey"
+msgstr ""
+
+#: includes/class-phonepe-gateway.php:90
+msgid "SaltKey Index"
+msgstr ""
+
+#. Author of the plugin
+msgid "Sevengits"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:38
+msgid "Skip &amp; Deactivate"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:39
+msgid "Submit &amp; Deactivate"
+msgstr ""
+
+#: includes/class-phonepe-gateway.php:98
+msgid "Test Mode"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:41
+msgid "Thank you!"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:50
+msgid "The plugin broke my site"
+msgstr ""
+
+#: plugin-deactivation-survey/deactivate-feedback-form.php:49
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: includes/class-phonepe-gateway.php:77
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-phonepe-gateway.php:70
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-phonepe-gateway.php:68
+msgid "Title"
+msgstr ""

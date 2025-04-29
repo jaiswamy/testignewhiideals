@@ -1,0 +1,28 @@
+.sgits-deactivate-dialog {
+    text-align: left;
+    width: auto;
+}
+
+.sgits-deactivate-dialog-buttons {
+    text-align: right;
+}
+
+.sgits-deactivate-dialog {
+    width: auto !important;
+}
+
+.sgits-deactivate-dialog h2 {
+    color: gray;
+    font-variant: small-caps;
+    font-size: 1.2em;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid lightgray;
+}
+
+.sgits-deactivate-dialog input[type="text"] {
+    width: 380px;
+}
+
+.sgits-deactivate-dialog textarea {
+    width: 100%;
+}

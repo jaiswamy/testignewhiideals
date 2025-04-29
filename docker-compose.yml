@@ -1,0 +1,40 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql123
+      MYSQL_DATABASE: u499940289_hitpLmanager
+      MYSQL_USER: u499940289_hiidealsHitpl
+      MYSQL_PASSWORD: hi!de@sl@User#5466
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./u499940289_hitpLmanager.sql:/docker-entrypoint-initdb.d/u499940289_hitpLmanager.sql
+    networks:
+      - tomcat-network-hiideals2
+
+  web:
+    build: .
+    container_name: hiideals_app
+    ports:
+      - "8180:80"
+    volumes:
+      - ./test:/var/www/html
+    depends_on:
+      - db
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_PORT: 3306
+      WORDPRESS_DB_NAME: u499940289_hitpLmanager
+      WORDPRESS_DB_USER: u499940289_hiidealsHitpl
+      WORDPRESS_DB_PASSWORD: hi!de@sl@User#5466
+    networks:
+      - tomcat-network-hiideals2
+
+networks:
+  tomcat-network-hiideals2:  # Custom network for communication between Tomcat and                                                                                         MySQL
+    driver: bridge
+
+volumes:
+  db_data:
